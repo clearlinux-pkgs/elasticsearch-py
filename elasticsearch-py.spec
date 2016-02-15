@@ -4,7 +4,7 @@
 #
 Name     : elasticsearch-py
 Version  : 2.1.0
-Release  : 14
+Release  : 15
 URL      : https://github.com/elastic/elasticsearch-py/archive/2.1.0.tar.gz
 Source0  : https://github.com/elastic/elasticsearch-py/archive/2.1.0.tar.gz
 Summary  : No detailed summary available
