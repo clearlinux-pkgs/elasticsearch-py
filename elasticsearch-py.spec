@@ -4,7 +4,7 @@
 #
 Name     : elasticsearch-py
 Version  : 2.3.0
-Release  : 17
+Release  : 18
 URL      : https://github.com/elastic/elasticsearch-py/archive/2.3.0.tar.gz
 Source0  : https://github.com/elastic/elasticsearch-py/archive/2.3.0.tar.gz
 Summary  : No detailed summary available
@@ -50,11 +50,6 @@ python components for the elasticsearch-py package.
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
-%check
-export http_proxy=http://127.0.0.1:9/
-export https_proxy=http://127.0.0.1:9/
-export no_proxy=localhost,127.0.0.1,0.0.0.0
-python setup.py test
 %install
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot}
