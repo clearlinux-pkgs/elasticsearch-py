@@ -4,7 +4,7 @@
 #
 Name     : elasticsearch-py
 Version  : 5.0.0
-Release  : 23
+Release  : 24
 URL      : https://github.com/elastic/elasticsearch-py/archive/5.0.0.tar.gz
 Source0  : https://github.com/elastic/elasticsearch-py/archive/5.0.0.tar.gz
 Summary  : No detailed summary available
